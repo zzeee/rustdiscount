@@ -1,0 +1,12 @@
+name = "configurable goods product discount"
+type = "product_discounts"
+api_version = "2022-07"
+
+[build]
+command = "cargo wasi build --release"
+path = "target/wasm32-wasi/release/proddiscount.wasm"
+
+
+[ui.paths]
+create = "/volume/new"
+details = "/volume/:id"
