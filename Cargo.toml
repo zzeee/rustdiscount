@@ -1,5 +1,5 @@
 [package]
-name = "configurable-goods-product-discount"
+name = "proddiscount"
 version = "1.0.0"
 edition = "2021"
 
